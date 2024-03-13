@@ -10,8 +10,7 @@
     "test": "jest --watchAll",
     "lint": "eslint \"src/**/*.{js,jsx,ts,tsx}\"",
     "format": "prettier --write .",
-    "prepare": "husky",
-    "spell-check": "spellchecker --config .spellcheckerrc.json"
+    "prepare": "husky"
   },
   "jest": {
     "preset": "jest-expo"
