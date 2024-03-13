@@ -10,7 +10,7 @@ export const RootContext = createContext<RootContextType>({
   setIsLoading: () => {},
 });
 
-export const RootProvider = ({ children }: any) => {
+export const RootProvider = ({ children }: { children: React.ReactNode }) => {
   const [isLoading, setIsLoading] = useState(false);
 
   return (
