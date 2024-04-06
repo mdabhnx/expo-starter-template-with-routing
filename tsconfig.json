@@ -4,13 +4,15 @@
     "strict": true,
     "baseUrl": "./",
     "paths": {
+      "@/assets/*": ["assets/*"],
       "@/data/*": ["src/data/*"],
       "@/hooks/*": ["src/hooks/*"],
       "@/types/*": ["src/types/*"],
       "@/common/*": ["src/common/*"],
       "@/constants/*": ["src/constants/*"],
       "@/components/*": ["src/components/*"],
-      "@/context/*": ["src/CTX/*"]
+      "@/context/*": ["src/context/*"],
+      "@/helpers/*": ["src/helpers/*"]
     }
   },
   "include": ["**/*.ts", "**/*.tsx", ".expo/types/**/*.ts", "expo-env.d.ts"]
